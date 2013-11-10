@@ -6574,10 +6574,11 @@ article {
 }
 #design .development li .portfolio-image {
   height: 80px;
+  padding-bottom: 0;
 }
 @media (min-width: 992px) {
   #design .development li .portfolio-image {
-    height: 140px;
+    height: 100px;
   }
 }
 .grid {

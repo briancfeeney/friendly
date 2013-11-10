@@ -36,6 +36,10 @@
 	
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexslider-min.js"></script>
 	
+	<style>
+		img#wpstats{width:0px;height:0px;padding:0px;border:none;overflow:hidden}
+	</style>
+	
 </head>
 
 <body <?php body_class(); ?>>

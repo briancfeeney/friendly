@@ -85,7 +85,7 @@ get_header(); ?>
 		
 		<div class="col-sm-8">
 				
-				<h5>Web</h5>
+				<h5>Web <small>Design and Development</small></h5>
 		
 				<ul class="list-unstyled grid cs-style-3">
 					<div class="row">
