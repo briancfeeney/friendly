@@ -18,32 +18,6 @@
 		</footer>
 	</div> -->
 	
-	<!-- random dots -->
-	<div class="dot d1"></div>
-	<div class="dot d2"></div>
-	<div class="dot d3"></div>
-	<div class="dot d4"></div>
-	<script>
-		
-		var Wi = $(window).width();
-		var H = $(window).height();
-		var randomW = Math.ceil(Math.random() * Wi) + 'px';
-		var randomH = Math.ceil(Math.random() * H) + 'px';
-		var randomW2 = Math.ceil(Math.random() * Wi) + 'px';
-		var randomH2 = Math.ceil(Math.random() * H) + 'px';
-		var randomW3 = Math.ceil(Math.random() * Wi) + 'px';
-		var randomH3 = Math.ceil(Math.random() * H) + 'px';
-		var randomW4 = Math.ceil(Math.random() * Wi) + 'px';
-		var randomH4 = Math.ceil(Math.random() * H) + 'px';
-
-		$(document).ready(function() {
-		    $('.d1').css('left', randomW).css('top', randomH);
-			$('.d2').css('left', randomW2).css('top', randomH2);
-			$('.d3').css('left', randomW3).css('top', randomH3);
-			$('.d4').css('left', randomW4).css('top', randomH4);
-		});
-	</script>
-	
 <footer id="footer">
 	<a data-toggle="modal" href="#myModal" class="contact"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/email.png"></a>
 	<a href="tel:3179020092" class="phone visible-xs"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/phone.png"></a>
