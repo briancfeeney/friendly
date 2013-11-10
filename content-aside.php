@@ -17,7 +17,6 @@
 				</h6>
 				</a>
 				<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentytwelve' ) ); ?>
-				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'twentytwelve' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><span class="glyphicon glyphicon-time"></span></a>
 			</div><!-- .entry-content -->
 
 	</article><!-- #post -->

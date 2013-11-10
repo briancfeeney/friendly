@@ -55,24 +55,24 @@
 					<div class="navbar-header navbar-default">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 							<span class="sr-only">Toggle navigation</span>
-							<span class="glyphicon glyphicon-user"></span>
+							<div data-icon="d" class="icon-torso"></div>
 						</button>	
 					</div>
 
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse navbar-ex1-collapse">
 						<ul class="nav navbar-nav" id="social-links">
-							<li><a href="http://twitter.com/#!/bfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/twitter.png"></a></li>
-							<li><a href="http://dribbble.com/bfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/dribbble.png"></a></li>
-							<li><a href="http://instagram.com/brianfeeney/"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/instagram.png"></a></li>
-							<li><a href="http://www.facebook.com/bcfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/facebook.png"></a></li>
-							<li><a href="http://briancfeeney.tumblr.com"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/tumblr.png"></a> </li>
-							<li><a href="http://pinterest.com/brianfeeney/"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/pinterest.png"></a> </li>
-							<li><a href="http://www.flickr.com/photos/briancf/"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/flickr.png"></a></li>
-							<li><a href="http://last.fm/user/bfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/lastfm.png"></a></li>
-							<li><a href="https://gimmebar.com/loves/bfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/gimmebar.png"></a></li>
-							<li><a href="https://readmill.com/bfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/readmill.png"></a></li>
-							<li><a href="https://github.com/briancfeeney"><img src="<?php echo get_template_directory_uri(); ?>/images/socialicons/github.png"></a></li>
+							<li><a href="http://twitter.com/#!/bfeeney"><div data-icon="f" class="icon-social-twitter"></div></a></li>
+							<li><a href="http://dribbble.com/bfeeney"><div data-icon="r" class="icon-social-dribble"></div></a></li>
+							<li><a href="http://instagram.com/brianfeeney/"><div data-icon="l" class="icon-social-instagram"></div></a></li>
+							<li><a href="http://www.facebook.com/bcfeeney"><div data-icon="o" class="icon-social-facebook"></div></a></li>
+							<li><a href="http://briancfeeney.tumblr.com"><div data-icon="g" class="icon-social-tumblr"></div></a></li>
+							<li><a href="http://pinterest.com/brianfeeney/"><div data-icon="i" class="icon-social-pinterest"></div></a></li>
+							<li><a href="http://www.flickr.com/photos/briancf/"><div data-icon="m" class="icon-social-flickr"></div></a></li>
+							<li><a href="http://last.fm/user/bfeeney"><div data-icon="k" class="icon-social-lastfm"></div></a></li>
+							<!-- <li><a href="https://gimmebar.com/loves/bfeeney"><div data-icon="r" class="icon-social-dribble"></div></a></li> -->
+							<!-- <li><a href="https://readmill.com/bfeeney"><div data-icon="r" class="icon-social-dribble"></div></a></li> -->
+							<li><a href="https://github.com/briancfeeney"><div data-icon="n" class="icon-social-github"></div></a></li>
 						</ul>
 						<ul class="nav navbar-nav text-nav" id="navigation">
 							<li class="site-title"><a href="/">Brian Feeney</a></li>
