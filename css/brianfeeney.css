@@ -6984,6 +6984,18 @@ article {
 .modal-content .modal-header .close {
   color: #e1dfd8;
 }
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: #5a7b8c;
+  border-radius: 50%;
+  position: fixed;
+  opacity: .5;
+  display: none;
+}
+.home .dot {
+  display: inline;
+}
 /* --------------------------------------------------------------------------- */
 footer {
   position: relative;

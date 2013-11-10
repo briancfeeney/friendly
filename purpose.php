@@ -13,8 +13,7 @@ get_header(); ?>
 		<section id="purpose-intro">
 			<h1>/purpose</h1>
 			<div class="col-sm-6 col-sm-offset-3">
-				<p>There are a lot of places on the internet to put up your shoes, but this one here is mine. Social networks have spread like mad. I like that, but I also wish more people had their own place. Visiting a friend’s Facebook page often feels like reading an auto-bio on a public tac board. But a personal web page — that’s a home. There’s beer in the fridge in summer, and hot cocoa on the table in winter. I have a Facebook account, too, of course. This is brianfeeney.us.</p>
-				<p>My doors are always open here. You’re always invited.</p>
+				<p>There are a lot of places on the internet to put up your shoes, but this one here is mine. Social networks have spread like mad. I like that, but I also wish more people had their own place, a home on the Web that better reflected their real selves. Visiting a friend’s Facebook page often feels like reading an auto-bio on a public tac board. But a personal web page — that’s a home. There’s beer in the fridge in summer, and hot cocoa on the table in winter. The doors are always open here. You’re always invited, and I love it when you stop by.</p>
 			</div>
 		</section>
 		
