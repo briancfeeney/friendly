@@ -6,11 +6,11 @@ Template Name: Blog
 */
 get_header(); ?>
 
-<div class="col-lg-2">
+<div class="col-lg-12">
 	<?php get_sidebar(); ?>
 </div>
 
-<div class="col-lg-6 col-lg-offset-1">
+<div class="col-lg-6 col-lg-offset-3">
 
 	<section id="blog" class="main">
 				

@@ -21,7 +21,7 @@
 <footer id="footer">
 	<a data-toggle="modal" href="#myModal" class="contact"><div data-icon="u" class="icon-mail"></div></a>
 	<a href="tel:3179020092" class="phone visible-xs"><div data-icon="e" class="icon-telephone"></div></a>
-	<a href="/purpose" class="purpose">/purpose</a>
+	<!-- <a href="/purpose" class="purpose">/purpose</a> -->
 </footer>
 
 

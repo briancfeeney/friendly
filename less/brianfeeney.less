@@ -393,13 +393,13 @@ header {
 		}
 	}
 	ul {
-		max-width: 600px;
 		min-height: 30px;
 		margin: 20px auto 20px;
 		font-size: .8em;
+		text-align: center;
 		li {
-			float: left;
-			margin-right: 20px;
+			display: inline-block;
+			margin-right: 10px;
 			a {
 				.proximaL();
 				color: @tan;
@@ -409,13 +409,18 @@ header {
 				}
 			}
 		}
+		@media (min-width: @screen-sm) {
+			li {
+				margin-right: 60px;
+			}
+		}
 		@media (min-width: @screen-lg) {
 			font-size: 1em;
 			padding-left: 38px;
 			margin-top: 60px;
 			li {
 				float: none;
-				margin: 0 0 10px;
+				margin: 0 60px 10px 0;
 			}
 		}
 		.evergreen {
@@ -686,8 +691,9 @@ article {
 	margin: 20px auto 40px;
 	overflow: hidden;
 	font-size: .8em;
+	text-align: center;
+	display: none; 					/* temporary removal */
 	li {
-		float: left;
 		margin-right: 20px;
 		a {
 			.proximaL();

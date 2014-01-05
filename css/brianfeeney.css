@@ -6420,14 +6420,14 @@ header {
   color: #f26d68 !important;
 }
 #sidebar ul {
-  max-width: 600px;
   min-height: 30px;
   margin: 20px auto 20px;
   font-size: .8em;
+  text-align: center;
 }
 #sidebar ul li {
-  float: left;
-  margin-right: 20px;
+  display: inline-block;
+  margin-right: 10px;
 }
 #sidebar ul li a {
   font-family: "proxima-nova-1", "proxima-nova-2";
@@ -6439,6 +6439,11 @@ header {
 #sidebar ul li a:hover {
   color: #f26d68 !important;
 }
+@media (min-width: 768px) {
+  #sidebar ul li {
+    margin-right: 60px;
+  }
+}
 @media (min-width: 1200px) {
   #sidebar ul {
     font-size: 1em;
@@ -6447,7 +6452,7 @@ header {
   }
   #sidebar ul li {
     float: none;
-    margin: 0 0 10px;
+    margin: 0 60px 10px 0;
   }
 }
 @media (min-width: 1200px) {
@@ -6700,9 +6705,12 @@ article {
   margin: 20px auto 40px;
   overflow: hidden;
   font-size: .8em;
+  text-align: center;
+  display: none;
+  /* temporary removal */
+
 }
 .sub-nav li {
-  float: left;
   margin-right: 20px;
 }
 .sub-nav li a {

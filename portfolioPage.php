@@ -18,7 +18,7 @@ get_header(); ?>
 				<?php the_content(); ?>
 			<?php endwhile; // end of the loop. ?>
 			
-			<p>I'm currently employed by <a href="http://familiar-studio.com">Familiar Studio</a> as a front-end developer, but I also take freelance work, both print and Web. If you'd like to make something together, please <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">send me a note.</a></p>
+			<p>I'm currently employed as a designer for the <a href="http://brooklynmuseum.org">Brooklyn Museum</a>, but I also take freelance work, both print and Web. If you'd like to make something together, please <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">send me a note.</a></p>
 			
 			<div id="accordion">
 				<!-- <h3>
