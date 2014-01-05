@@ -98,11 +98,11 @@ get_header(); ?>
 		
 			<?php }else{ ?>
 				
-				<div class="col-lg-2">
-					<?php get_sidebar(); ?>
-				</div>
+				<!-- div class="col-lg-12">
+					<?php // get_sidebar(); ?>
+				</div> -->
 				
-				<div class="col-lg-6 col-lg-offset-1">
+				<div class="col-lg-6 col-lg-offset-3">
 					<section id="blog" class="main">
 						<?php get_template_part( 'content', get_post_format() ); } ?>
 					</section>
