@@ -155,7 +155,31 @@ get_header(); ?>
 		
 				<ul class="list-unstyled development">
 					<div class="row">
-					
+						
+						<div class="col-sm-4">
+							 <li>
+								<div class="portfolio-image">
+									<h4>Familiar</h4>
+									<a href="http://measureofthings.com/"><h3>The Measure of All Things</h3></a>
+								</div>
+							 </li>
+						</div>
+						<div class="col-sm-4">
+							 <li>
+								<div class="portfolio-image">
+									<h4>Familiar</h4>
+									<a href="http://www.artmattersfoundation.org/"><h3>Art Matters Foundation</h3></a>
+								</div>
+							 </li>
+						</div>
+						<div class="col-sm-4">
+							 <li>
+								<div class="portfolio-image">
+									<h4>Familiar</h4>
+									<a href="http://thomasdozol.com/"><h3>Thomas Dozol</h3></a>
+								</div>
+							 </li>
+						</div>
 						<div class="col-sm-4">
 							 <li>
 								<div class="portfolio-image">
