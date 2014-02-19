@@ -317,7 +317,7 @@ header {
 }
 
 #welcome {
-	margin-top: -30px;
+	margin-top: 0px;
 	padding-right: 20px;
 	p {
 		.proximaT();
@@ -364,6 +364,28 @@ header {
 		&:hover {
 			&:before, p, h6 {
 				color: @pink;
+			}
+		}
+	}
+}
+
+// One Page
+.page-template-onepage-php {
+	#navigation {
+		li {
+			display: none;
+			&.site-title {
+				display: inline-block;
+			}
+		}
+	}
+	@media (max-width: @screen-sm) {
+		footer {
+			.contact {
+				left: 25% !important;
+			}
+			.phone {
+				margin-right: 25% !important;
 			}
 		}
 	}
@@ -1123,7 +1145,8 @@ footer {
 	}
 }
 
-.page-template-landingPage-php {
+.page-template-landingPage-php,
+.page-template-onepage-php {
 	footer {
 		.contact {
 			position: fixed;

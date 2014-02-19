@@ -6284,7 +6284,7 @@ header {
   display: none;
 }
 #welcome {
-  margin-top: -30px;
+  margin-top: 0px;
   padding-right: 20px;
 }
 #welcome p {
@@ -6340,6 +6340,20 @@ header {
 #quote blockquote:hover p,
 #quote blockquote:hover h6 {
   color: #f26d68;
+}
+.page-template-onepage-php #navigation li {
+  display: none;
+}
+.page-template-onepage-php #navigation li.site-title {
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .page-template-onepage-php footer .contact {
+    left: 25% !important;
+  }
+  .page-template-onepage-php footer .phone {
+    margin-right: 25% !important;
+  }
 }
 /* --------------------------------------------------------------------------- */
 .main {
@@ -7101,35 +7115,41 @@ footer .purpose:hover {
     position: fixed;
   }
 }
-.page-template-landingPage-php footer .contact {
+.page-template-landingPage-php footer .contact,
+.page-template-onepage-php footer .contact {
   position: fixed;
   bottom: 30px;
   left: 20px;
 }
 @media (min-width: 768px) {
-  .page-template-landingPage-php footer .contact {
+  .page-template-landingPage-php footer .contact,
+  .page-template-onepage-php footer .contact {
     bottom: 10px;
     left: 0;
   }
 }
-.page-template-landingPage-php footer .phone {
+.page-template-landingPage-php footer .phone,
+.page-template-onepage-php footer .phone {
   position: fixed;
   bottom: 30px;
   margin-right: 45%;
   display: inline-block !important;
 }
 @media (min-width: 768px) {
-  .page-template-landingPage-php footer .phone {
+  .page-template-landingPage-php footer .phone,
+  .page-template-onepage-php footer .phone {
     display: none !important;
   }
 }
-.page-template-landingPage-php footer .purpose {
+.page-template-landingPage-php footer .purpose,
+.page-template-onepage-php footer .purpose {
   position: fixed;
   bottom: 30px;
   right: 30px;
 }
 @media (min-width: 768px) {
-  .page-template-landingPage-php footer .purpose {
+  .page-template-landingPage-php footer .purpose,
+  .page-template-onepage-php footer .purpose {
     bottom: 10px;
     right: 20px;
   }
