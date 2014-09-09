@@ -20,15 +20,24 @@ get_header(); ?>
 	ul {
 		margin-left: 0;
 		padding-left: 0;
+		list-style-type: none;
 	}
 	li {
-		margin-bottom: 10px;
+		margin-bottom: 20px;
 	}
 	img {
 		margin-bottom: 20px;
 	}
 	.images {
 		margin-bottom: 40px;
+		cursor: pointer;
+	}
+	.modal-dialog {
+		width: 70%;
+	}
+	.carousel-control.right,
+	.carousel-control.left {
+		background: none;
 	}
 </style>
 
@@ -57,10 +66,10 @@ get_header(); ?>
 			<div class="col-sm-6 col-sm-offset-3">
 				<div class="text">
 					<ul>
-						<li>Comped new headers for the BMA site refresh. A preliminary exercise for selling possible new directions to website stakeholders.</li>
+						<li>Comped new headers for the BMA website refresh. A preliminary exercise for selling possible new directions to website stakeholders.</li>
 					</ul>
 				</div>
-				<div class="images">
+				<div class="images" data-toggle="modal" data-target="#headersModal">
 					<div class="row">
 						<div class="col-sm-3">
 							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps4.png">
@@ -88,13 +97,57 @@ get_header(); ?>
 						</div>
 					</div>
 				</div>
+				
+				<div class="modal fade" id="headersModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+				    <div class="modal-content">
+				      <div class="modal-body">
+					    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+						  <div class="carousel-inner">
+							<div class="item active">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps4.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps5.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps6.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps9.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps12.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps13.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps17.png">
+							</div>
+							<div class="item">
+							<img src="http://brianfeeney.us/brooklynmuseumimages/BMA-header-comps22.png">
+							</div>
+						  </div>
+						  <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+						    <span class="glyphicon glyphicon-chevron-left"></span>
+						  </a>
+						  <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+						    <span class="glyphicon glyphicon-chevron-right"></span>
+						  </a>
+						</div>
+				      </div>
+				    </div>
+				  </div>
+				</div>
+				
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-sm-offset-3">
 				<div class="text">
 					<ul>
-						<li>Comped new footers for a BMA site refresh.</li>
+						<li>Comped new footers for a BMA website refresh.</li>
 					</ul>
 				</div>
 				<div class="images">
@@ -141,10 +194,10 @@ get_header(); ?>
 			<div class="col-sm-6 col-sm-offset-3">
 				<div class="text">
 					<ul>
-						<li>Acted as creative director the <a href="http://brooklynmuseum.org/eascfa/video">Sackler Video site</a></li>
-						<li>Full content audit of the current BMA site</li>
+						<li>Acted as creative director for the <a href="http://brooklynmuseum.org/eascfa/video">Sackler Video site</a></li>
+						<li>Full content audit of the current BMA website</li>
 						<li>Comped new typographic layouts for the BMA site refresh</li>
-						<li>Further progress creating the front end style guide for the BMA site</li>
+						<li>Further progress creating the front end style guide for the BMA website</li>
 						<li>Began researching agencies for the VEI digital signage</li>
 					</ul>
 				</div>

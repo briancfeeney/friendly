@@ -97,6 +97,7 @@
 <script src="<?php echo get_template_directory_uri(); ?>/js/collapse.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/modal.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/transition.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/carousel.js"></script>
 
 <script src="<?php echo get_template_directory_uri(); ?>/js/button.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/js/dropdown.js"></script>
